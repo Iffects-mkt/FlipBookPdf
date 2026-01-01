@@ -1,6 +1,6 @@
 
 // URL externa fija solicitada por el cliente
-const REMOTE_PDF_URL = 'https://qr-trust.com/pdf/brochure.pdf';
+const REMOTE_PDF_URL = '/pdf/brochure.pdf';
 
 // Implementamos el uso de un proxy CORS (allorigins) para poder descargar el archivo desde el cliente
 // sin ser bloqueados por la política de Same-Origin del navegador.
